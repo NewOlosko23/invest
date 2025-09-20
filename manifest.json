@@ -1,0 +1,86 @@
+{
+  "name": "Trading Platform",
+  "short_name": "TradingApp",
+  "description": "A comprehensive trading platform with real-time market data and portfolio management",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["finance", "business", "productivity"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "features": [
+    "Real-time stock data",
+    "Portfolio management",
+    "Watchlist tracking",
+    "Offline functionality",
+    "Push notifications"
+  ],
+  "shortcuts": [
+    {
+      "name": "View Portfolio",
+      "short_name": "Portfolio",
+      "description": "View your investment portfolio",
+      "url": "/dashboard/portfolio",
+      "icons": [
+        {
+          "src": "/vite.svg",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Trade Stocks",
+      "short_name": "Trade",
+      "description": "Buy or sell stocks",
+      "url": "/dashboard/trade",
+      "icons": [
+        {
+          "src": "/vite.svg",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Watchlist",
+      "short_name": "Watchlist",
+      "description": "View your stock watchlist",
+      "url": "/dashboard/watchlist",
+      "icons": [
+        {
+          "src": "/vite.svg",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
